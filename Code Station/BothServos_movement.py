@@ -22,22 +22,22 @@ while True:
     set_angle(servo_x, 90)
     time.sleep(0.5)
 
-#     # Move both to left/down
-#     set_angle(servo_y, 50)
-#     set_angle(servo_x, 50)
-#     time.sleep(0.5)
-# 
-#     # Move both to right/up
-#     set_angle(servo_y, 150)
-#     set_angle(servo_x, 150)
-#     time.sleep(0.5)
-# 
-#     # Return both to center
-#     set_angle(servo_y, 90)
-#     set_angle(servo_x, 90)
-#     time.sleep(0.5)
-#     
-#     set_angle(servo_y, 50)   # tilt head slightly down
-#     set_angle(servo_x, 150)  # rotate to one side
-#     time.sleep(0.5)
+    # Move both to left/down
+    set_angle(servo_y, 50)
+    set_angle(servo_x, 50)
+    time.sleep(0.5)
+
+    # Move both to right/up
+    set_angle(servo_y, 150)
+    set_angle(servo_x, 150)
+    time.sleep(0.5)
+
+    # Return both to center
+    set_angle(servo_y, 90)
+    set_angle(servo_x, 90)
+    time.sleep(0.5)
+    
+    set_angle(servo_y, 50)   # tilt head slightly down
+    set_angle(servo_x, 150)  # rotate to one side
+    time.sleep(0.5)
 
