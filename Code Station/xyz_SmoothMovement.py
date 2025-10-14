@@ -24,8 +24,8 @@ def smooth_move(servo, start, end, step=2, delay=0.01):
         time.sleep(delay)
 
 # Angle limits
-MIN_ANGLE = 40
-MAX_ANGLE = 150
+MIN_ANGLE = 45
+MAX_ANGLE = 125
 CENTER = 90
 
 time.sleep(2)
