@@ -1,4 +1,4 @@
-# 🤖  Pia-the-Robot
+# 🤖  Pia-the-μRSC
 
 ## Hardware Replication & Micro-RSC Development
 <img src="Banner for Pia-the-uRSC.png" width="100%" style="max-height:200px; object-fit:cover;" />
@@ -12,5 +12,13 @@ The main objectives are:
 3. Understand servo kinematics
 4. Document full assembly, wiring, and coding steps
 5. Adapt Pia into a cost-effective Micro-RSC platform for my BSc thesis
-
 This project is continuously updated.
+
+## 🔧 Hardware Used
+| **Components** | Details |
+|----------------|---------|
+| **Microcontroller** | Raspberry Pi Pico |
+| **Servos** | DF9GMS 180° micro servos (X, Y, Z axes) |
+| **3D Printed Parts** | All STL files from "Pia the Robot" on [Printables](https://www.printables.com/model/190775-pia-the-robot) |
+| **Power** | USB 5V (initial) | 
+| **Misc** | Jumper wires, screws, servo horns, breadboard |
