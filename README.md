@@ -17,6 +17,7 @@ This project is continuously updated.
 
 ## 🔧 Hardware Used
 | **Components** | Details |
+
 | **Microcontroller** | Raspberry Pi Pico |
 | **Servos** | DF9GMS 180° micro servos (X, Y, Z axes) |
 | **3D Printed Parts** | All STL files from "Pia the Robot" on [Printables](https://www.printables.com/model/190775-pia-the-robot) |
