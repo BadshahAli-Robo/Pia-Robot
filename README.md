@@ -1,4 +1,4 @@
-# 🤖  Pia-the-μRSC
+# 🤖  Pia-the-μRSC [To Be]
 
 ## 📌Hardware Replication & Micro-RSC Development
 <img src="Banner for Pia-the-uRSC.png" width="100%" style="max-height:200px; object-fit:cover;" />
