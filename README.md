@@ -7,7 +7,7 @@
 This repository documents my full journey of replicating, assembling, and upgrading Pia-the-Robot, based on the original open-source design.
 
 The main objectives are:
-1. Rebuild Pia using Raspberry Pi Pico and DF9GMS 180° servos
+1. Rebuild Pia using [Raspberry Pi Pico](https://thepihut.com/products/raspberry-pi-pico-w?srsltid=AfmBOopVhjwxGJgmFiPiU_dQihIodUADGCJEcOd47JI0liRDAYfdv12_) and [DF9GMS 180° servos](https://www.dfrobot.com/product-1579.html?srsltid=AfmBOorRm1mJtgvEDg0HyJaaVKkh1eYbVWLtT9Ohvx80wH8pmlJqAed5)
 2. Study expressive movement and mechanical design
 3. Understand servo kinematics
 4. Document full assembly, wiring, and coding steps
