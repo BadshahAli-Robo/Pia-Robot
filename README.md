@@ -23,3 +23,16 @@ This project is continuously updated.
 | **3D Printed Parts** | All STL files from "Pia the Robot" on [Printables](https://www.printables.com/model/190775-pia-the-robot) |
 | **Power** | USB 5V (initial) | 
 | **Misc** | Jumper wires, screws, servo horns, breadboard |
+
+## 🕹️ Servo Control Summary
+Pia uses 3 servos controlled by PWM signals at 50 Hz.
+1. Y-axis: head tilt to left and right
+2. X-axis: head tolt to forward and backward
+3. Z-axis: head rotation clockwise and anti-clockwise
+
+Control uses a smooth-movement function that moves servos gradually by changing angle in small increments for natural motion.
+
+## 🧩 3D Printed Parts
+All parts were printed from the Pia-the-Robot model on [Printables.](https://www.printables.com/model/190775-pia-the-robot)
+
+Status: All parts printed successfully.
