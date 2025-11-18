@@ -20,7 +20,7 @@ This project is continuously updated.
 |----------------|---------|
 | **Microcontroller** | Raspberry Pi Pico |
 | **Servos** | DF9GMS 180° micro servos (X, Y, Z axes) |
-| **Magnets** | 6x3mm & 8x1mm (2 from each) |
+| **Magnets** | [6x3mm & 8x1mm](https://www.supermagnete.de/eng/disc-magnets-neodymium/disc-magnet-6mm-3mm_S-06-03-N?group=product_finder) (2 from each) |
 | **3D Printed Parts** | All STL files from "Pia the Robot" on [Printables](https://www.printables.com/model/190775-pia-the-robot) |
 | **Power** | USB 5V (initial) | 
 | **Misc** | Jumper wires, screws, servo horns, breadboard |
