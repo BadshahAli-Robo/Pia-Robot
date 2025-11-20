@@ -2,7 +2,8 @@
 
 ## 📌Hardware Replication & Micro-RSC Development
 <img src="Banner for Pia-the-uRSC.png" width="100%" style="max-height:200px; object-fit:cover;" />
-I was inspired by [Pia-the-robot](https://github.com/BtreeComputingServcies/pia-the-robot) , who was inspired by [Mira](https://www.youtube.com/watch?v=0vfuOW1tsX0) by Alonso Martinez.
+I was inspired by [Pia-the-robot](https://github.com/BtreeComputingServcies/pia-the-robot), which itself was inspired by [Mira](https://www.youtube.com/watch?v=0vfuOW1tsX0) by Alonso Martinez.
+
 
 
 ## 🧠 Project Overview
