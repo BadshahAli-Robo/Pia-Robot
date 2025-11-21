@@ -5,7 +5,7 @@ from neopixel import NeoPixel
 
 # ==================== NEO-PIXEL SETUP ====================
 NEOPIXEL_PIN = 12
-NUM_LEDS = 16
+NUM_LEDS = 24
 np = NeoPixel(Pin(NEOPIXEL_PIN), NUM_LEDS)
 
 # ==================== SERVO CONFIGURATION ====================
@@ -55,7 +55,7 @@ class CompleteRobotController:
         print("💡 Brightness increasing quickly...")
         steps = 20
         for step in range(steps + 1):
-            brightness = 10 + int((255 - 10) * (step / steps))
+            brightness = 10 + int((150 - 10) * (step / steps))
             for i in range(NUM_LEDS):
                 np[i] = (brightness, brightness, brightness)
             np.write()
@@ -66,7 +66,7 @@ class CompleteRobotController:
         print("💡 Brightness decreasing...")
         steps = 20
         for step in range(steps + 1):
-            brightness = 255 - int((255 - 10) * (step / steps))
+            brightness = 150 - int((150 - 10) * (step / steps))
             for i in range(NUM_LEDS):
                 np[i] = (brightness, brightness, brightness)
             np.write()
@@ -150,7 +150,7 @@ class CompleteRobotController:
         print("\n🎯 Y-AXIS SEQUENCE (RED LEDs)")
         self.led_solid_color((255, 0, 0))  # RED
         
-        sequence = [90, 85, 120, 90]
+        sequence = [90, 80, 120, 90]
         for target in sequence:
             self._smooth_move_servo('y', target, duration=3.0)
             utime.sleep(0.3)
@@ -174,7 +174,7 @@ class CompleteRobotController:
         print("\n🎯 Z-AXIS SEQUENCE (BLUE LEDs)")
         self.led_solid_color((0, 0, 255))  # BLUE
         
-        sequence = [90, 85, 120, 90]
+        sequence = [90, 70, 120, 90]
         for target in sequence:
             self._smooth_move_servo('z', target, duration=3.0)
             utime.sleep(0.3)
